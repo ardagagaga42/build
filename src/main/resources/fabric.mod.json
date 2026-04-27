@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "lootrunbot",
+  "version": "${version}",
+  "name": "LootrunBot",
+  "description": "Automated lootrun bot with beacon selection and mage teleport",
+  "authors": ["ardagagaga42"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.lootrunbot.LootrunBot"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.1"
+  },
+  "suggests": {
+    "wynntils": "*",
+    "baritone": "*",
+    "jsmacros": "*"
+  }
+}
